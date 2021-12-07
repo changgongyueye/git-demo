@@ -17,4 +17,11 @@ abc
 3. git pull  --rebase = git fetch + git rebase 。
 4. git log -n 1 --stat查看最近一次提交所有更改过的文件。
 5. git show commitId 某次提交的具体内容
+<<<<<<< HEAD
 6. git reset HEAD -filename  add后未Commit撤销add
+=======
+6. git reset HEAD -filename  add后未Commit撤销add
+
+使用如下命令：git pull --rebase origin master
+然后再进行上传: git push -u origin master
+>>>>>>> bcc2e5b (demo2)
